@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eric "Draven" Goodrich | Resume & Journey</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1f2933;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      color: #d1d5db;
+    }
+
+    nav {
+      background: #111827;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 0.75rem;
+    }
+
+    nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h2 {
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      color: #111827;
+    }
+
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      margin-bottom: 1.5rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #1f2933;
+      color: #9ca3af;
+      margin-top: 3rem;
+    }
+
+    footer a {
+      color: #9ca3af;
+      text-decoration: none;
+    }
+  </style>
+  <script>
+    function trackResumeClick() {
+      let clicks = localStorage.getItem('resumeClicks') || 0;
+      clicks++;
+      localStorage.setItem('resumeClicks', clicks);
+      console.log('Resume viewed', clicks, 'times');
+    }
+  </script>
+</head>
+<body>
+
+              <header id="home">
+    <img src="profile.jpg" alt="Eric Draven Goodrich" style="width:140px; height:140px; border-radius:50%; object-fit:cover; margin-bottom:1rem; border:3px solid #374151;" />
+    <h1>Eric "Draven" Goodrich</h1>
+    <p>Carpe Diem</p>
+    <p style="margin-top:0.75rem;">
+      <a href="https://www.linkedin.com/in/ericdravengoodrich/" target="_blank" style="color:#9ca3af; text-decoration:underline;">LinkedIn</a>
+    </p>
+  </header>
+
+      <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#resume">Resume</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#certs">Certifications</a>
+    <a href="#projects">Projects</a>
+    <a href="#journey">Journey</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+        <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I am an IT professional and cybersecurity student focused on transitioning deeper into
+        defensive security roles. I enjoy understanding how systems work, identifying weaknesses,
+        and learning how to protect networks, endpoints, and users from real-world threats.
+      </p>
+    </div>
+  </section>
+
+    <section id="resume">
+    <h2>Resume</h2>
+    <div class="card" style="text-align:center;">
+      <p>You can view my resume on its own page or download a PDF copy.</p>
+      <p>
+        <a href="resume.html" style="font-weight:bold;">View Resume Page</a> ·
+        <a href="resume.pdf" target="_blank" onclick="trackResumeClick()" style="font-weight:bold;">Download PDF</a>
+      </p>
+      <p style="font-size:0.9rem; color:#6b7280; margin-top:0.75rem;">
+        Last updated: March 2026
+      </p>
+    </div>
+  </section>
+
+    <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="card">
+      <h3>IT Technician — Rural King Distribution Center</h3>
+      <p><em>December 2025 – Present · Waverly, Ohio</em></p>
+      <ul>
+        <li>Provide hands-on technical support for end-user hardware, software, and peripheral devices in a distribution center environment.</li>
+        <li>Troubleshoot desktops, laptops, printers, and network-connected devices to minimize operational downtime.</li>
+        <li>Assist with system setup, configuration, and basic network troubleshooting.</li>
+        <li>Apply a security-focused mindset when handling systems, user access, and troubleshooting activities.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Department Lead — Rural King Distribution Center</h3>
+      <p><em>October 2025 – December 2025 · Waverly, Ohio</em></p>
+      <ul>
+        <li>Led daily department operations while ensuring safety, accuracy, and productivity.</li>
+        <li>Supervised and trained team members, reinforcing accountability and workflow standards.</li>
+        <li>Developed leadership and communication skills applicable to technical and security team environments.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Puller — Rural King Distribution Center</h3>
+      <p><em>January 2024 – September 2025 · Waverly, Ohio</em></p>
+      <ul>
+        <li>Accurately picked, staged, and processed orders in a high-volume distribution environment.</li>
+        <li>Demonstrated reliability, attention to detail, and process adherence.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Gun Cage Associate — Rural King</h3>
+      <p><em>January 2023 – January 2024 · Waverly, Ohio</em></p>
+      <ul>
+        <li>Maintained compliance with safety and security procedures in a regulated environment.</li>
+        <li>Handled inventory and customer interactions with a focus on accuracy and responsibility.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Loader — Rural King</h3>
+      <p><em>July 2022 – January 2023 · Waverly, Ohio</em></p>
+      <ul>
+        <li>Supported warehouse operations through loading, staging, and material handling.</li>
+        <li>Built a strong foundation in teamwork, safety, and operational discipline.</li>
+      </ul>
+    </div>
+  </section>
+
+    <section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      <ul>
+        <li>Troubleshooting hardware and software</li>
+        <li>Networking fundamentals</li>
+        <li>Customer support and communication</li>
+        <li>Cybersecurity fundamentals</li>
+      </ul>
+    </div>
+  </section>
+
+        <section id="certs">
+    <h2>Certifications & Current Study</h2>
+    <div class="card" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:1.5rem; text-align:center;">
+      <div>
+        <img src="badge-comptia-aplus.png" alt="CompTIA A+ Badge" style="max-width:110px;" />
+        <p><strong>CompTIA A+</strong></p>
+        <p class="subtle">Issued by CompTIA</p>
+        <a href="https://www.credly.com/organizations/comptia/badges" target="_blank">Verify</a>
+      </div>
+      <div>
+        <img src="badge-comptia-networkplus.png" alt="CompTIA Network+" style="max-width:110px; opacity:0.85;" />
+        <p><strong>CompTIA Network+</strong></p>
+        <p class="subtle">Currently Studying</p>
+      </div>
+    </div>
+  </section>
+
+    <section id="projects">
+    <h2>Projects & Cyber Labs</h2>
+
+    <div class="card">
+      <h3>Home Lab: Windows & Linux Security Environment</h3>
+      <p>
+        Built and maintained a personal lab using virtual machines to simulate real-world
+        enterprise environments. Practiced system hardening, user permissions, and note-taking
+        around security configurations.
+      </p>
+      <ul>
+        <li>Configured Windows and Linux virtual machines</li>
+        <li>Practiced basic system hardening and access control</li>
+        <li>Documented findings and lessons learned</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Networking & Traffic Analysis Lab</h3>
+      <p>
+        Explored network fundamentals and traffic behavior to better understand how data flows
+        and how malicious activity can be identified.
+      </p>
+      <ul>
+        <li>Analyzed network traffic patterns</li>
+        <li>Reviewed logs and identified anomalies</li>
+        <li>Strengthened understanding of TCP/IP and common protocols</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Security Fundamentals Practice</h3>
+      <p>
+        Hands-on practice aligned with CompTIA A+ and cybersecurity coursework, focusing on
+        security concepts, incident awareness, and troubleshooting from a security mindset.
+      </p>
+      <ul>
+        <li>Endpoint security concepts</li>
+        <li>Basic incident response awareness</li>
+        <li>Risk and threat identification</li>
+      </ul>
+    </div>
+  </section>
+
+    <section id="journey">
+    <h2>My Journey</h2>
+    <div class="card">
+      <p>
+        My interest in technology started early. While in high school, I attended a trade school
+        program focused on Information Security, where I built a strong foundation in computer and
+        security fundamentals. During this time, I earned the <strong>MTA Security Fundamentals</strong>
+        certification in 2021.
+      </p>
+      <p>
+        Outside of school, I have been building and working on computers for years. What began as
+        curiosity grew into a desire to deeply understand how hardware, operating systems, and
+        networks function together.
+      </p>
+      <p>
+        That passion carried into my professional career. I earned my current role as a Distribution
+        Center IT Technician by networking internally, demonstrating my enthusiasm for technology,
+        and showing a genuine desire to understand how systems interact in real-world environments.
+        This hands-on experience continues to push me toward a long-term career in cybersecurity.
+      </p>
+    </div>
+  </section>
+
+      <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: <a href="mailto:dravengoodrich08@gmail.com">dravengoodrich08@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/ericdravengoodrich/" target="_blank">linkedin.com/in/ericdravengoodrich</a></p>
+      <p>GitHub: <a href="https://github.com/draven404" target="_blank">github.com/draven404</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Eric "Draven" Goodrich · Built with simple HTML & CSS</p>
+  </footer>
+
+</body>
+</html>
